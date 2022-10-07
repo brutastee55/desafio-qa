@@ -14,7 +14,7 @@ Antes de começar, garanta que os seguintes sistemas estejam instalados em seu c
 * <b>Obs. 3:</b> Para verificar as versões do git, Node.js e NPM instaladas em seu computador, execute o comando git --version && node --version && npm --version no seu terminal de linha de comando.
 
 ## Clonando o projeto 🐑
-Abra o navegador, acesse a URL https://github.com/wlsf82/boas-praticas-em-automacao-de-testes-com-cypress, clique no botão Code, escolha uma opção de clone (HTTPS ou SSH), copie o link de clone do projeto, e em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando <b>git clone [cole-o-link-copiado-aqui].</b>
+Abra o navegador, acesse a URL https://github.com/brutastee55/desafio-qa, clique no botão Code, escolha uma opção de clone (HTTPS ou SSH), copie o link de clone do projeto, e em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando <b>git clone [cole-o-link-copiado-aqui].</b>
 
 Após o clone do projeto, acesse o diretório recém clonado (ex.: cd desafio-qa).
 
