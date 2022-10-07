@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "open": "cypress open",
+    "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "postcypress:run": "node ./cypress/support/multiple-cucumber-html-reporter.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bruno Silva de Souza <brutastee@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "cypress": "^3.6.0",
