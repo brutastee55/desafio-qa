@@ -1,5 +1,10 @@
+/// <reference types="cypress"/>
+after(()=>{
+    cy.clearLocalStorage()
+})
 
 class automationPraticePage{
+
 
     getBtnLogin(){
         cy.get('.login').click()
