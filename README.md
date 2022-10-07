@@ -18,7 +18,7 @@ Abra o navegador, acesse a URL https://github.com/brutastee55/desafio-qa, clique
 
 Após o clone do projeto, acesse o diretório recém clonado (ex.: cd desafio-qa).
 
-Dentro do diretório boas-praticas-em-automacao-de-testes-com-cypress/ você terá os sub-diretórios .git/ (diretório oculto), cypress/, e os arquivos .gitignore (arquivo oculto), cypress.json, package-lock.json, package.json e README.md.
+Dentro do diretório desafio-qa você terá os sub-diretórios .git/ (diretório oculto), cypress/, e os arquivos .gitignore (arquivo oculto), cypress.json, package-lock.json, package.json e README.md.
 
 ## Instalação das dependências de desenvolvimento
 Com o projeto clonado a partir do GitHub, é hora de instalarmos suas depedências de desenvolvimento.
