@@ -43,7 +43,7 @@ No fim da execução dos testes será criado um relatório que fica na pasta <b>
 <table>
   <tr>
     <td align="center">
-      <a href="https://gitlab.com/brutastee">
+      <a href="https://github.com/brutastee55">
         <img src="https://gitlab.com/uploads/-/system/user/avatar/4485003/avatar.png?width=400" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
         <sub>
           <b>Bruno Souza</b>
