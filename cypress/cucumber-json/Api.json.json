@@ -1,0 +1,56 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "eu como usuario devo ser capaz de fazer uma consultas usando o metodo GET",
+    "line": 2,
+    "id": "eu-como-usuario-devo-ser-capaz-de-fazer-uma-consultas-usando-o-metodo-get",
+    "tags": [
+      {
+        "name": "@Desafio",
+        "line": 1
+      }
+    ],
+    "uri": "Api.feature",
+    "elements": [
+      {
+        "id": "eu-como-usuario-devo-ser-capaz-de-fazer-uma-consultas-usando-o-metodo-get;consultar-a-lista-de-nomes-do-trello-usando-o-metodo-get",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "consultar a lista de nomes do trello usando o metodo GET",
+        "tags": [
+          {
+            "name": "@Desafio",
+            "line": 1
+          },
+          {
+            "name": "@API",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que faco uma requisicao espero que o status code seja 200 e busco por \"body.data.list.name\"",
+            "result": {
+              "status": "passed",
+              "duration": 807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "que o resultado seja \"Professional\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

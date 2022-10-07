@@ -1,0 +1,11 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "requestTimeout": 10000,
+    "defaultCommandTimeout":15000,
+    "pageLoadTimeOut":15000,
+    "ScreenshotOnRunFailure": true,
+    "trashAssetsBeforeRuns": true,
+    "env":{
+        "login_url":"http://automationpractice.com/index.php"
+    }
+}
