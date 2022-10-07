@@ -10,10 +10,10 @@ Given('dado que acesso o site automation pratice',() =>{
 })
 
 When('faco login com um usuario valido',() =>{
-    page.getBtnLogin().click()
-    page.getInputEmail().type('teste2021@teste.com.br')
-    page.getInputPassword().type('teste')
-    page.getBtnSignIn().click()
+    page.getBtnLogin()
+    page.getInputEmail()
+    page.getInputPassword()
+    page.getBtnSignIn()
 })
 
 Then ('valido que esteja logado em minha conta {string}', (validacao) =>{
@@ -22,35 +22,35 @@ Then ('valido que esteja logado em minha conta {string}', (validacao) =>{
 
 
 And ('no campo de busca pesquiso pelo item {string}', (pesquisa) => {
-    page.getInpuPesquisa().type(pesquisa)
-    page.getBtnPesquisa().click()
+    page.getInpuPesquisa(pesquisa)
+    page.getBtnPesquisa()
 })
 
 And ('adiciono o item pesquisado no carrinho',() =>{
-    page.getBtnAddCompraCarrinho().click()
-    page.getBtnProceedToCheckout().click()
+    page.getBtnAddCompraCarrinho()
+    page.getBtnProceedToCheckout()
 })
 
 And ('confirmo que o item no carrinho seja o mesmo que adicionei {string}',(itemCarrinho) =>{
     page.getTextoItemCarrinho().should('have.text',itemCarrinho)
-    page.getBtnProceedCheckoutCarrinho().click()
+    page.getBtnProceedCheckoutCarrinho()
 })
 
 And ('na pagina de endereco clico em prosseguir para checkout',() =>{
-    page.getBtnProceedCheckoutCarrinho().click()
+    page.getBtnProceedCheckoutCarrinho()
 })
 
 And ('na pagina de envio concordo com os termos e clico em prosseguir para checkout',() =>{
-    page.getCheckTermoDeServico().click()
-    page.getBtnProceedCheckoutCarrinho().click()
+    page.getCheckTermoDeServico()
+    page.getBtnProceedCheckoutCarrinho()
 })
 
 And ('escolho a forma que pagamento por cheque',() =>{
-    page.getModalCheque().click()
+    page.getModalCheque()
 })
 
 And ('clico no botao de confirmar o pedido',() =>{
-    page.getBtnConfirmOrder().click()
+    page.getBtnConfirmOrder()
 })
 
 Then ('valido a mensagem de sucesso {string}',(texto) =>{

@@ -2,39 +2,39 @@
 class automationPraticePage{
 
     getBtnLogin(){
-        return cy.get('.login')
+        cy.get('.login').click()
     }
 
     getInputEmail(){
-        return cy.get('#email')
+        cy.get('#email').type('teste2021@teste.com.br')
     }
 
     getInputPassword(){
-        return cy.get('#passwd')
+        cy.get('#passwd').type('teste')
     }
 
     getBtnSignIn(){
-        return cy.get('#SubmitLogin > span')
+        cy.get('#SubmitLogin > span').click()
     }
 
     getTextoMinhaConta(){
         return cy.get('.page-heading')
     }
 
-    getInpuPesquisa(){
-        return cy.get('#search_query_top')
+    getInpuPesquisa(pesquisa){
+        cy.get('#search_query_top').type(pesquisa)
     }
 
     getBtnPesquisa(){
-        return cy.get('#searchbox > .btn')
+        cy.get('#searchbox > .btn').click()
     }
 
     getBtnAddCompraCarrinho(){
-        return cy.get('.ajax_add_to_cart_button > span')
+        cy.get('.ajax_add_to_cart_button > span').click()
     }
 
     getBtnProceedToCheckout(){
-        return cy.get('.button-container > .button-medium > span')
+        cy.get('.button-container > .button-medium > span').click()
     }
 
     getTextoItemCarrinho(){
@@ -42,20 +42,19 @@ class automationPraticePage{
     }
 
     getBtnProceedCheckoutCarrinho(){
-        return cy.get('.cart_navigation > .button > span')
-        
+        cy.get('.cart_navigation > .button > span').click() 
     }
 
     getCheckTermoDeServico(){
-        return cy.get('#cgv')
+        cy.get('#cgv').click()
     }
 
     getModalCheque(){
-        return cy.get('.cheque')
+        cy.get('.cheque').click()
     }
 
     getBtnConfirmOrder(){
-        return cy.get('#cart_navigation > .button > span')
+        cy.get('#cart_navigation > .button > span').click()
     }
 
     getTextoCompraFeitaSucesso(){

@@ -36,7 +36,7 @@
             "name": "dado que acesso o site automation pratice",
             "result": {
               "status": "passed",
-              "duration": 3666000000
+              "duration": 4719000000
             }
           },
           {
@@ -46,7 +46,7 @@
             "name": "faco login com um usuario valido",
             "result": {
               "status": "passed",
-              "duration": 6586000000
+              "duration": 30173000000
             }
           },
           {
@@ -56,7 +56,7 @@
             "name": "valido que esteja logado em minha conta 'My account'",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 30000000
             }
           },
           {
@@ -66,7 +66,7 @@
             "name": "no campo de busca pesquiso pelo item 'Faded Short Sleeve T-shirts'",
             "result": {
               "status": "passed",
-              "duration": 3709000000
+              "duration": 2939000000
             }
           },
           {
@@ -76,7 +76,7 @@
             "name": "adiciono o item pesquisado no carrinho",
             "result": {
               "status": "passed",
-              "duration": 4237000000
+              "duration": 7055000000
             }
           },
           {
@@ -86,7 +86,7 @@
             "name": "confirmo que o item no carrinho seja o mesmo que adicionei 'Faded Short Sleeve T-shirts'",
             "result": {
               "status": "passed",
-              "duration": 1663000000
+              "duration": 3840000000
             }
           },
           {
@@ -96,7 +96,7 @@
             "name": "na pagina de endereco clico em prosseguir para checkout",
             "result": {
               "status": "passed",
-              "duration": 1447000000
+              "duration": 8444000000
             }
           },
           {
@@ -106,7 +106,7 @@
             "name": "na pagina de envio concordo com os termos e clico em prosseguir para checkout",
             "result": {
               "status": "passed",
-              "duration": 1438000000
+              "duration": 6058000000
             }
           },
           {
@@ -116,7 +116,7 @@
             "name": "escolho a forma que pagamento por cheque",
             "result": {
               "status": "passed",
-              "duration": 1686000000
+              "duration": 4915000000
             }
           },
           {
@@ -126,7 +126,7 @@
             "name": "clico no botao de confirmar o pedido",
             "result": {
               "status": "passed",
-              "duration": 4887000000
+              "duration": 9580000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "valido a mensagem de sucesso 'Your order on My Store is complete.'",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 31000000
             }
           }
         ]

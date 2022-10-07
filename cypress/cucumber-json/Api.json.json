@@ -36,7 +36,7 @@
             "name": "que faco uma requisicao espero que o status code seja 200 e busco por \"body.data.list.name\"",
             "result": {
               "status": "passed",
-              "duration": 807000000
+              "duration": 766000000
             }
           },
           {
@@ -46,7 +46,7 @@
             "name": "que o resultado seja \"Professional\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 10000000
             }
           }
         ]
