@@ -4,9 +4,9 @@ Framework de automação cypress com cenários Web e Api
 ## :books: Pré-requisitos
 Antes de começar, garanta que os seguintes sistemas estejam instalados em seu computador.
 
-* git (estou usando a versão 2.33.0)
-* Node.js (estou usando a versão v16.17.0)
-* NPM (estou usando a versão 8.15.0)
+* git (versão 2.33.0)
+* Node.js (versão v16.17.0)
+* NPM (versão 8.15.0)
 * <b>Obs.:</b> Recomendo utilizar as mesmas versões, ou versões mais recentes dos sistemas citados acima.
 
 * <b>Obs. 2:</b> Ao instalar o Node.js o NPM é instalado automaticamente.
