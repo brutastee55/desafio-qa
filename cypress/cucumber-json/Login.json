@@ -1,0 +1,146 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Eu como usuario da aplicação devo ser Capaz de me logar com sucesso e fazer uma compra",
+    "line": 2,
+    "id": "eu-como-usuario-da-aplicação-devo-ser-capaz-de-me-logar-com-sucesso-e-fazer-uma-compra",
+    "tags": [
+      {
+        "name": "@Desafio",
+        "line": 1
+      }
+    ],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "eu-como-usuario-da-aplicação-devo-ser-capaz-de-me-logar-com-sucesso-e-fazer-uma-compra;fazer-login-com-um-usuario-valido",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Fazer login com um usuario valido",
+        "tags": [
+          {
+            "name": "@Desafio",
+            "line": 1
+          },
+          {
+            "name": "@LOGIN",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "dado que acesso o site automation pratice",
+            "result": {
+              "status": "passed",
+              "duration": 3957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "faco login com um usuario valido",
+            "result": {
+              "status": "passed",
+              "duration": 9225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "valido que esteja logado em minha conta 'My account'",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "no campo de busca pesquiso pelo item 'Faded Short Sleeve T-shirts'",
+            "result": {
+              "status": "passed",
+              "duration": 5569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "adiciono o item pesquisado no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 3499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "confirmo que o item no carrinho seja o mesmo que adicionei 'Faded Short Sleeve T-shirts'",
+            "result": {
+              "status": "passed",
+              "duration": 1701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "na pagina de endereco clico em prosseguir para checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "na pagina de envio concordo com os termos e clico em prosseguir para checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "escolho a forma que pagamento por cheque",
+            "result": {
+              "status": "passed",
+              "duration": 2021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "clico no botao de confirmar o pedido",
+            "result": {
+              "status": "passed",
+              "duration": 2745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "valido a mensagem de sucesso 'Your order on My Store is complete.'",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
